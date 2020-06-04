@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drwdrd.adev.ui.Point3Preference xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drwdrd="http://schemas.android.com/apk/res-auto"
+    android:key="orbitTrapCircle"
+    android:title="Circle"
+    drwdrd:defaultValueX="0.0"
+    drwdrd:defaultValueY="0.0"
+    drwdrd:defaultValueZ="1.0"
+    drwdrd:labelX="x"
+    drwdrd:labelY="y"
+    drwdrd:labelZ="r">
+</drwdrd.adev.ui.Point3Preference>

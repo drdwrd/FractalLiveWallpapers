@@ -1,0 +1,17 @@
+<palette name="palette02a" keyColorsCount="15">
+ <keyColor distance="0" alpha="255" red="255" blue="255" green="255"/>
+ <keyColor distance="0.110032" alpha="255" red="50" blue="42" green="212"/>
+ <keyColor distance="0.187702" alpha="255" red="26" blue="70" green="89"/>
+ <keyColor distance="0.247573" alpha="255" red="48" blue="198" green="125"/>
+ <keyColor distance="0.303398" alpha="255" red="128" blue="27" green="16"/>
+ <keyColor distance="0.369741" alpha="255" red="225" blue="33" green="33"/>
+ <keyColor distance="0.442557" alpha="255" red="124" blue="75" green="25"/>
+ <keyColor distance="0.504854" alpha="255" red="204" blue="219" green="71"/>
+ <keyColor distance="0.562298" alpha="255" red="138" blue="70" green="68"/>
+ <keyColor distance="0.609223" alpha="255" red="181" blue="53" green="170"/>
+ <keyColor distance="0.664239" alpha="255" red="81" blue="33" green="132"/>
+ <keyColor distance="0.732201" alpha="255" red="32" blue="40" green="208"/>
+ <keyColor distance="0.805825" alpha="255" red="20" blue="68" green="61"/>
+ <keyColor distance="0.864078" alpha="255" red="47" blue="211" green="53"/>
+ <keyColor distance="1" alpha="255" red="255" blue="255" green="255"/>
+</palette>

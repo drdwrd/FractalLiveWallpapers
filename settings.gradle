@@ -1,0 +1,1 @@
+include ':engine', ':GLWallpaperService', ':ui', ':LiveFractalWallpaper', ':Exoplanet1', ':Realtime Fractal', ':DomainWarping'

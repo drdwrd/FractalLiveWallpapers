@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GLWallpaperService/GLWallpaperService.iml" filepath="$PROJECT_DIR$/GLWallpaperService/GLWallpaperService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LiveFractalWallpaper/LiveFractalWallpaper.iml" filepath="$PROJECT_DIR$/LiveFractalWallpaper/LiveFractalWallpaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Realtime Fractal/Realtime Fractal.iml" filepath="$PROJECT_DIR$/Realtime Fractal/Realtime Fractal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adev.iml" filepath="$PROJECT_DIR$/adev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/engine/engine.iml" filepath="$PROJECT_DIR$/engine/engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/ui.iml" filepath="$PROJECT_DIR$/ui/ui.iml" />
+    </modules>
+  </component>
+</project>

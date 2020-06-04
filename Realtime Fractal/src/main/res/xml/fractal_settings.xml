@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Fractal Settings">
+
+        <ListPreference
+            android:defaultValue="julia"
+            android:entries="@array/fractalType"
+            android:entryValues="@array/fractalTypeValues"
+            android:key="fractalType"
+            android:title="Fractal">
+        </ListPreference>
+
+        <PreferenceScreen
+            android:key="fractalSceneEditor"
+            android:title="Fractal Editor"
+            android:shouldDisableView="true">
+        </PreferenceScreen>
+
+        <ListPreference
+            android:defaultValue="smooth"
+            android:entries="@array/colorFunc"
+            android:entryValues="@array/colorFuncValues"
+            android:key="fractalColorFunc"
+            android:title="Coloring method">
+        </ListPreference>
+
+        <PreferenceScreen
+            android:key="orbitTrapSettingsScreen"
+            android:title="Orbit Traps Settings"
+            android:shouldDisableView="true">
+        </PreferenceScreen>
+
+        <EditTextPreference
+            android:defaultValue="4.0"
+            android:inputType="numberDecimal|numberSigned"
+            android:key="bailout"
+            android:title="Bailout">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:defaultValue="0.001"
+            android:inputType="numberDecimal|numberSigned"
+            android:key="bailin"
+            android:title="Bailin">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:defaultValue="200"
+            android:inputType="number"
+            android:key="maxIterations"
+            android:title="Max Iterations">
+        </EditTextPreference>
+
+        <ListPreference
+            android:defaultValue="pow"
+            android:entries="@array/transferFunc"
+            android:entryValues="@array/transferFuncValues"
+            android:key="transferFunc"
+            android:title="Transfer Function">
+        </ListPreference>
+
+        <EditTextPreference
+            android:key="colorGradient"
+            android:title="Color Gradient"
+            android:inputType="numberDecimal|numberSigned"
+            android:defaultValue="1.0">
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

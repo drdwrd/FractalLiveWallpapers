@@ -1,0 +1,55 @@
+<resources>
+    <string-array name="framebufferSize">
+        <item>256x256</item>
+        <item>512x512</item>
+        <item>1024x1024</item>
+        <item>2048x2048</item>
+        <item>4096x4096</item>
+    </string-array>
+    <string-array name="framebufferSizeValues">
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+    </string-array>
+    <string-array name="fractalType">
+        <item>Julia Set</item>
+        <item>Mandelbrot Set</item>
+    </string-array>
+    <string-array name="fractalTypeValues">
+        <item>julia</item>
+        <item>mandelbrot</item>
+    </string-array>
+    <string-array name="colorFunc">
+        <item>Iteration Count</item>
+        <item>Smooth</item>
+        <item>Distance Estimator</item>
+        <item>Orbit Traps</item>
+<!--        <item>Debug Distance Field</item>       -->
+    </string-array>
+    <string-array name="colorFuncValues">
+        <item>iterationCount</item>
+        <item>smooth</item>
+        <item>distanceEstimator</item>
+        <item>orbitTraps</item>
+        <item>triangleInequality</item>
+<!--        <item>debugDistanceField</item>         -->
+    </string-array>
+    <string-array name="transferFunc">
+        <item>power</item>
+        <item>power2</item>
+        <item>exponential</item>
+        <item>exponential2</item>
+        <item>sin</item>
+        <item>cos</item>
+    </string-array>
+    <string-array name="transferFuncValues">
+        <item>pow</item>
+        <item>pow2</item>
+        <item>exp</item>
+        <item>exp2</item>
+        <item>sin</item>
+        <item>cos</item>
+    </string-array>
+</resources>

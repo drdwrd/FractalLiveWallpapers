@@ -1,0 +1,6 @@
+<wallpaper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thumbnail="@drawable/ic_launcher"
+    android:description="@string/app_name"
+    android:settingsActivity="drwdrd.adev.realtimefractal.preferences.RealtimeFractalSettingsActivity">
+</wallpaper>

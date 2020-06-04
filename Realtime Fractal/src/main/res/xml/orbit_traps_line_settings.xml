@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drwdrd.adev.ui.PointPreference xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drwdrd="http://schemas.android.com/apk/res-auto"
+    android:key="orbitTrapLine"
+    android:title="Line"
+    drwdrd:defaultValueX="1.0"
+    drwdrd:defaultValueY="0.0"
+    drwdrd:labelX="a"
+    drwdrd:labelY="b">
+</drwdrd.adev.ui.PointPreference>

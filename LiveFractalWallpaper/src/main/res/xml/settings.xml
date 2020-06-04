@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:drwdrd="http://schemas.android.com/apk/res-auto">
+
+	<drwdrd.adev.ui.ImageListPreference android:key="fractal"
+
+        android:title="@string/settings_fractal"
+        drwdrd:entries="@array/settings_fractal_names"
+        drwdrd:entryValues="@array/settings_fractal_values"
+        drwdrd:entryImages="@array/settings_fractal_images"
+        android:defaultValue="wlp03fa.imz">
+        
+    </drwdrd.adev.ui.ImageListPreference>
+    
+    <drwdrd.adev.ui.ImageListPreference android:key="palette"
+
+        android:title="@string/settings_palette"
+        drwdrd:entries="@array/settings_palette_names"
+        drwdrd:entryValues="@array/settings_palette_values"
+        drwdrd:entryImages="@array/settings_palette_images"
+        android:defaultValue="palette01.xml">
+        
+    </drwdrd.adev.ui.ImageListPreference>
+
+    <ListPreference android:key="wallpapermode"
+
+        android:title="@string/settings_wallpapermode"
+        android:entries="@array/settings_wallpapermode_names"
+        android:entryValues="@array/settings_wallpapermode_values"
+        android:defaultValue="1">
+        
+    </ListPreference>
+    
+   	<ListPreference android:key="colormode"
+
+        android:title="@string/settings_colormode"
+        android:entries="@array/settings_colormode_names"
+        android:entryValues="@array/settings_colormode_values"
+        android:defaultValue="ColorLoop2.frag">
+        
+    </ListPreference>
+
+	<ListPreference android:key="wavemode"
+
+        android:title="@string/settings_wavemode"
+        android:entries="@array/settings_wavemode_names"
+        android:entryValues="@array/settings_wavemode_values"
+        android:defaultValue="ColorWaves.frag">
+        
+    </ListPreference>
+    
+    <drwdrd.adev.ui.SeekBarPreference android:key="brightness"
+       	android:title="@string/settings_brightness"
+       	android:persistent="true"
+       	android:defaultValue="10"
+       	drwdrd:minValue="0"
+       	drwdrd:maxValue="50"
+        drwdrd:stepSize="1"
+        drwdrd:precision="0">
+    </drwdrd.adev.ui.SeekBarPreference>
+
+    <drwdrd.adev.ui.SeekBarPreference android:key="timescale"
+       	android:title="@string/settings_timescale"
+       	android:persistent="true"
+       	android:defaultValue="10"
+       	drwdrd:minValue="0"
+       	drwdrd:maxValue="50"
+        drwdrd:stepSize="1"
+        drwdrd:precision="0">
+    </drwdrd.adev.ui.SeekBarPreference>
+    	
+    <drwdrd.adev.ui.SeekBarPreference android:key="colorfrequency"
+       	android:title="@string/settings_colorfrequency"
+       	android:persistent="true"
+       	android:defaultValue="10"
+       	drwdrd:minValue="0"
+       	drwdrd:maxValue="100"
+        drwdrd:stepSize="1"
+        drwdrd:precision="0">
+    </drwdrd.adev.ui.SeekBarPreference>
+    	
+   	<CheckBoxPreference android:key="highres"
+   	     
+   	    android:title="@string/settings_highres"
+   	    android:defaultValue="false">
+   	     
+   	</CheckBoxPreference>
+   	
+   	<Preference
+   	    
+   	    android:title="@string/settings_reset"
+   	    android:key="resetsettings">
+   	    
+   	</Preference>
+   	 
+
+</PreferenceScreen> 

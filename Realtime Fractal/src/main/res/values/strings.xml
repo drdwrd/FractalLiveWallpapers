@@ -1,0 +1,4 @@
+<resources>
+    <string name = "app_name">Realtime Fractal</string>
+    <string name = "share_name">RealtimeFractal</string>
+</resources>

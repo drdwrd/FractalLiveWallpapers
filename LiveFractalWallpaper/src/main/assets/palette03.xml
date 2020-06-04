@@ -1,0 +1,10 @@
+<palette name="palette03" keyColorsCount="8">
+ <keyColor distance="0" alpha="255" red="0" blue="0" green="0"/>
+ <keyColor distance="0.125405" alpha="255" red="74" blue="192" green="224"/>
+ <keyColor distance="0.341424" alpha="255" red="228" blue="67" green="4"/>
+ <keyColor distance="0.502427" alpha="255" red="0" blue="0" green="0"/>
+ <keyColor distance="0.62055" alpha="255" red="27" blue="208" green="0"/>
+ <keyColor distance="0.744337" alpha="255" red="255" blue="255" green="255"/>
+ <keyColor distance="0.889968" alpha="255" red="213" blue="91" green="35"/>
+ <keyColor distance="1" alpha="255" red="0" blue="0" green="0"/>
+</palette>

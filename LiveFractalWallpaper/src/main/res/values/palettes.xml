@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="settings_palette_names">        
+        <item>palette01</item>
+        <item>palette02</item>
+        <item>palette02a</item>
+        <item>palette03</item>
+        <item>palette03a</item>
+        <item>palette04</item>
+        <item>flaves</item>
+        </string-array>
+    <string-array name="settings_palette_values">        
+        <item>palette01.xml</item>
+        <item>palette02.xml</item>
+        <item>palette02a.xml</item>
+        <item>palette03.xml</item>
+        <item>palette03a.xml</item>
+        <item>palette04.xml</item>
+        <item>flaves.xml</item>
+        </string-array>
+
+    <string-array name="settings_palette_images">        
+        <item>@drawable/ic_palette01</item>
+        <item>@drawable/ic_palette02</item>
+        <item>@drawable/ic_palette02a</item>
+        <item>@drawable/ic_palette03</item>
+        <item>@drawable/ic_palette03a</item>
+        <item>@drawable/ic_palette04</item>
+        <item>@drawable/ic_flaves</item>
+        </string-array>
+</resources>

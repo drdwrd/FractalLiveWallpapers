@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Framebuffer Settings">
+
+        <CheckBoxPreference
+            android:key="isFramebufferOn"
+            android:title="Use Framebuffer"
+            android:defaultValue="false">
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="framebufferSize"
+            android:title="Framebuffer Size"
+            android:summary="Sets framebuffer size."
+            android:entries="@array/framebufferSize"
+            android:entryValues="@array/framebufferSizeValues"
+            android:defaultValue="1024">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

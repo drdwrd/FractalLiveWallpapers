@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="addNewOrbitTrap"
+        android:title="Add New Orbit Trap"
+        android:order="100000000">
+    </Preference>
+
+</PreferenceScreen>

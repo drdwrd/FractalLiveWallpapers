@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 22
+        versionCode 4
+        versionName '1.03'
+    }
+    buildTypes.release {
+        minifyEnabled true
+        shrinkResources true
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile project(':engine')
+    compile project(':GLWallpaperService')
+    compile project(':ui')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}

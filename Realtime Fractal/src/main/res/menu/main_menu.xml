@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drwdrd="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuSave"
+        android:icon="@drawable/ic_menu_save"
+        android:title="Save"
+        drwdrd:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/menuLoad"
+        android:icon="@drawable/ic_menu_archive"
+        android:title="Open"
+        drwdrd:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/menuShare"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Share">
+    </item>
+
+</menu>

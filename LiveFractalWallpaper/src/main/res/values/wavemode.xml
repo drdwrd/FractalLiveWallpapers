@@ -1,0 +1,18 @@
+<resources>
+    <string-array name="settings_wavemode_names">        
+        <item>Circle</item>
+        <item>Square</item>
+        <item>Vertical</item>
+        <item>Horizontal</item>
+        <item>Vertical Mirror</item>
+        <item>Horizontal Mirror</item>
+   	</string-array>
+    <string-array name="settings_wavemode_values">        
+        <item>ColorWaves.frag</item>
+        <item>ColorWavesSquare.frag</item>
+        <item>ColorWavesVert.frag</item>
+        <item>ColorWavesHoriz.frag</item>
+        <item>ColorWavesMirrorVert.frag</item>
+        <item>ColorWavesMirrorHoriz.frag</item>
+        </string-array>
+</resources>

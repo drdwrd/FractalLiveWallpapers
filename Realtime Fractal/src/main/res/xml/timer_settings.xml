@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drwdrd="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Time Settings">
+
+        <drwdrd.adev.ui.SeekBarPreference
+            android:key="timeScale"
+            android:title="Time Scale"
+            android:persistent="true"
+            android:defaultValue="1.0"
+            drwdrd:minValue="0.1"
+            drwdrd:maxValue="10.0"
+            drwdrd:stepSize="0.1"
+            drwdrd:precision="1">
+        </drwdrd.adev.ui.SeekBarPreference>
+
+        <CheckBoxPreference
+            android:key="scaleTimeWithZoom"
+            android:title="Slow down time while zooming"
+            android:defaultValue="false">
+       </CheckBoxPreference>
+
+        <drwdrd.adev.ui.SeekBarPreference
+            android:key="timeScalingFactor"
+            android:title="Time slowing factor"
+            android:persistent="true"
+            android:defaultValue="0.5"
+            drwdrd:minValue="0.0"
+            drwdrd:maxValue="1.0"
+            drwdrd:stepSize="0.1"
+            drwdrd:precision="1">
+        </drwdrd.adev.ui.SeekBarPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

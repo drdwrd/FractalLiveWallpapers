@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Live Fractal Wallpaper</string>
+    <string name="livefractalwallpaper">Live Fractal Wallpaper</string>
+
+    <string name="settings_fractal">Fractal</string>
+	<string name="settings_palette">Palette</string>
+	<string name="settings_wallpapermode">Wallpaper Mode</string>
+	<string name="settings_colormode">Color Mode</string>
+	<string name="settings_wavemode">Wave Shape</string>
+	<string name="settings_brightness">Brightness</string>
+	<string name="settings_timescale">Time Scale</string>
+	<string name="settings_colorfrequency">Color Density</string>
+	<string name="settings_highres">High Resolution Textures</string>
+	<string name="settings_reset">Reset Settings</string>
+					
+</resources>

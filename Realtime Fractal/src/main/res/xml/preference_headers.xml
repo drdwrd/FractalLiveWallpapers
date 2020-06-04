@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="drwdrd.adev.realtimefractal.preferences.FractalSettingsFragment"
+        android:title="Fractal Settings">
+    </header>
+
+    <header android:fragment="drwdrd.adev.realtimefractal.preferences.ColoringSettingsFragment"
+        android:title="Coloring Mode">
+    </header>
+
+    <header android:fragment="drwdrd.adev.realtimefractal.preferences.TimerSettingsFragment"
+        android:title="Time Settings">
+    </header>
+
+    <header android:fragment="drwdrd.adev.realtimefractal.preferences.FramebufferSettingsFragment"
+        android:title="Framebuffer Settings">
+    </header>
+
+</preference-headers>

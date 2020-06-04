@@ -1,0 +1,15 @@
+<palette name="flaves" keyColorsCount="13">
+ <keyColor distance="0" alpha="255" red="0" blue="0" green="0"/>
+ <keyColor distance="0.0372168" alpha="255" red="64" blue="16" green="96"/>
+ <keyColor distance="0.114887" alpha="255" red="237" blue="77" green="226"/>
+ <keyColor distance="0.231392" alpha="255" red="73" blue="18" green="110"/>
+ <keyColor distance="0.29288" alpha="255" red="0" blue="0" green="0"/>
+ <keyColor distance="0.360032" alpha="255" red="79" blue="143" green="155"/>
+ <keyColor distance="0.496764" alpha="255" red="59" blue="212" green="54"/>
+ <keyColor distance="0.610841" alpha="255" red="68" blue="124" green="134"/>
+ <keyColor distance="0.679612" alpha="255" red="0" blue="0" green="0"/>
+ <keyColor distance="0.726537" alpha="255" red="95" blue="47" green="9"/>
+ <keyColor distance="0.865696" alpha="255" red="237" blue="92" green="90"/>
+ <keyColor distance="0.966019" alpha="255" red="144" blue="70" green="14"/>
+ <keyColor distance="1" alpha="255" red="0" blue="0" green="0"/>
+</palette>

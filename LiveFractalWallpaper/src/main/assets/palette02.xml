@@ -1,0 +1,7 @@
+<palette name="palette02" keyColorsCount="5">
+ <keyColor distance="0" alpha="255" red="125" blue="17" green="118"/>
+ <keyColor distance="0.213592" alpha="255" red="131" blue="79" green="203"/>
+ <keyColor distance="0.491909" alpha="255" red="122" blue="155" green="227"/>
+ <keyColor distance="0.825243" alpha="255" red="67" blue="163" green="125"/>
+ <keyColor distance="1" alpha="255" red="138" blue="22" green="128"/>
+</palette>

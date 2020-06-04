@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageListPreference">
+        <attr name="entries" format="string"/>
+        <attr name="entryValues" format="string"/>
+        <attr name="entryImages" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="FileDialog">
+        <attr name="fileExtension" format="string"/>
+        <attr name="dialogTitle" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SaveFileDialogFragment">
+        <attr name="defaultFileName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="PointPreference">
+        <attr name="labelX" format="string"/>
+        <attr name="labelY" format="string"/>
+        <attr name="defaultValueX" format="float"/>
+        <attr name="defaultValueY" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="Point3Preference">
+        <attr name="labelZ" format="string"/>
+        <attr name="defaultValueZ" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="SeekBarPreference">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="stepSize" format="float" />
+        <attr name="precision" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="settings_fractal_names">        
+        <item>wlp03fa</item>
+        <item>wlp08fa</item>
+        <item>wlp09fa</item>
+        <item>wlp10fa</item>
+        </string-array>
+    <string-array name="settings_fractal_values">        
+        <item>wlp03fa.imz</item>
+        <item>wlp08fa.imz</item>
+        <item>wlp09fa.imz</item>
+        <item>wlp10fa.imz</item>
+        </string-array>
+   <array name="settings_fractal_images">
+      <item>@drawable/ic_wlp03fa</item>
+      <item>@drawable/ic_wlp08fa</item>
+      <item>@drawable/ic_wlp09fa</item>
+      <item>@drawable/ic_wlp10fa</item>
+      </array>
+</resources>

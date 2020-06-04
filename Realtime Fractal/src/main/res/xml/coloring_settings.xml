@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drwdrd="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Coloring Settings">
+
+        <drwdrd.adev.ui.SeekBarPreference
+            android:key="gamma"
+            android:title="Gamma"
+            android:persistent="true"
+            android:defaultValue="1.0"
+            drwdrd:minValue="0.01"
+            drwdrd:maxValue="2.0"
+            drwdrd:stepSize="0.01"
+            drwdrd:precision="2">
+        </drwdrd.adev.ui.SeekBarPreference>
+
+        <drwdrd.adev.ui.PaletteEditor.PalettePreference
+            android:key="palette"
+            android:title="Palette">
+        </drwdrd.adev.ui.PaletteEditor.PalettePreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

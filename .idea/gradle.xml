@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DomainWarping" />
+            <option value="$PROJECT_DIR$/Exoplanet1" />
+            <option value="$PROJECT_DIR$/GLWallpaperService" />
+            <option value="$PROJECT_DIR$/LiveFractalWallpaper" />
+            <option value="$PROJECT_DIR$/Realtime Fractal" />
+            <option value="$PROJECT_DIR$/engine" />
+            <option value="$PROJECT_DIR$/ui" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
